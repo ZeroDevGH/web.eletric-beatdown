@@ -1,0 +1,87 @@
+body{
+    background-image: url("assets/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    display: grid;
+    place-items: center;
+}
+
+#title{
+    cursor: pointer;
+    background-color: transparent;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    color: black;
+    border-bottom: 5px solid black;
+    font-size: 80px;
+    font-family: sans-serif;
+    margin-left: 0px;
+}
+
+#boxBody{
+    background-image: url("assets/background.png");
+    background-color: rgb(175, 175, 175);
+    height: 100%;
+    width: 75%;
+    border: 10px solid rgb(175, 175, 175);
+}
+
+h1{
+    font-family: cursive;
+    border: 10px solid black;
+    background-color: black;
+    color: white;
+}
+
+h2, th, tr, table{
+    font-family: cursive;
+}
+
+.link{
+    cursor: pointer;
+}
+
+h1:hover{
+    scale: 1.05;
+}
+
+img{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-self: center;
+}
+
+.topic{
+    scale:1.05
+}
+
+.topic:hover{
+    scale: 1.15;
+}
+
+a#bk{
+    color: rgb(0, 0, 0);
+}
+
+a{
+    color: white;
+}
+
+th, table{
+    background-color: white;
+    color: black;
+    border: 5px solid gray;
+}
+
+@media (max-width: 830px) {
+    #title{
+        font-size: 40px;
+    }
+    img{
+        width: 100%;
+    }
+}
