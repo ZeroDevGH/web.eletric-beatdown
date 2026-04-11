@@ -36,7 +36,7 @@ h1{
     color: white;
 }
 
-h2, th, tr, table{
+h2, th, tr, table, section{
     font-family: cursive;
 }
 
@@ -71,7 +71,7 @@ a{
     color: white;
 }
 
-th, table{
+th, table, section, article{
     background-color: white;
     color: black;
     border: 5px solid gray;
