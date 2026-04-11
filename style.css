@@ -36,7 +36,7 @@ h1{
     color: white;
 }
 
-h2, th, tr, table, section{
+h2, th, tr, table, section, header{
     font-family: cursive;
 }
 
@@ -46,6 +46,13 @@ h2, th, tr, table, section{
 
 h1:hover{
     scale: 1.05;
+}
+
+.stdImage{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-self: start;
 }
 
 img{
