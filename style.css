@@ -8,6 +8,11 @@ body{
     place-items: center;
 }
 
+@font-face {
+  font-family: 'Font Imported';
+  src: url(assets/ComicSansMS3.ttf) format('truetype');
+}
+
 #title{
     cursor: pointer;
     background-color: transparent;
@@ -37,7 +42,7 @@ h1{
 }
 
 h2, th, tr, table, section, header{
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Font Imported', sans-serif;
 }
 
 .link{
