@@ -53,17 +53,9 @@ h1:hover{
     scale: 1.05;
 }
 
-.stdImage{
-    background-color: rgb(255, 255, 255);
-    display: grid;
-    place-self: start;
-}
-
 img{
     width: 40%;
     background-color: rgb(255, 255, 255);
-    display: grid;
-    place-self: center;
 }
 
 .topic{
