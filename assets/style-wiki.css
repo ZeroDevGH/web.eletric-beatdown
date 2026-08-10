@@ -3,7 +3,9 @@
   display: flex;
   align-items: column;
   border: black 5px solid;
+  background-color: black;
 }
 .btn-title {
   width: 100%;
+  margin: 5px;
 }
