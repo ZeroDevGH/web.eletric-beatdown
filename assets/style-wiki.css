@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   align-items: column;
+  border: black 5px solid;
 }
 .btn-title {
   width: 100%;
