@@ -41,7 +41,7 @@ h1{
     color: white;
 }
 
-h2, th, tr, table, section, header{
+h2, th, tr, table, section, header, input, button{
     font-family: 'Font Imported', sans-serif;
 }
 
@@ -80,6 +80,22 @@ th, table, section, article{
     color: black;
     border: 5px solid gray;
 }
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    align-items: column;
+    border: black 5px solid;
+    background-color: gray;
+}
+
+.btn-container .btn-title {
+    width: 100%;
+    gap: 20px;
+    background-color: lightgrey;
+    border: 2px solid white;
+}
+
 
 @media (max-width: 830px) {
     #title{
