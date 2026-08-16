@@ -84,6 +84,7 @@ th, table, section, article{
 #btn-container {
     width: 100%;
     display: flex;
+    justify-items: column;
     border: black 5px solid;
     background-color: gray;
 }
@@ -92,7 +93,6 @@ th, table, section, article{
     width: 100%;
     gap: 20px;
     background-color: lightgrey;
-    border: 2px solid white;
 }
 
 
