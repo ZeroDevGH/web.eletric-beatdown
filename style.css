@@ -84,7 +84,6 @@ th, table, section, article{
 #btn-container {
     width: 100%;
     display: flex;
-    align-items: column;
     border: black 5px solid;
     background-color: gray;
 }
