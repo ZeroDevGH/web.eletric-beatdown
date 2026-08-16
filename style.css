@@ -83,7 +83,7 @@ th, table, section, article{
 
 #btn-container {
     width: 100%;
-    display: grid;
+    display: none;
     justify-items: column;
     border: black 5px solid;
     background-color: gray;
@@ -95,6 +95,14 @@ th, table, section, article{
     background-color: lightgrey;
 }
 
+.btn-title:hover {
+    scale: 1.05;
+    background-color: whitesmoke;
+}
+
+#section-title:hover #btn-container {
+    dispaly: grid;
+}
 
 @media (max-width: 830px) {
     #title{
