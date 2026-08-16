@@ -101,7 +101,7 @@ th, table, section, article{
 }
 
 #section-title:hover #btn-container {
-    dispaly: grid;
+    display: grid;
 }
 
 @media (max-width: 830px) {
