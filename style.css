@@ -89,7 +89,7 @@ th, table, section, article{
     background-color: gray;
 }
 
-.btn-container .btn-title {
+.btn-container #btn-title {
     width: 100%;
     gap: 20px;
     background-color: lightgrey;
