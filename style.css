@@ -81,7 +81,7 @@ th, table, section, article{
     border: 5px solid gray;
 }
 
-.btn-container {
+#btn-container {
     width: 100%;
     display: flex;
     align-items: column;
@@ -89,7 +89,7 @@ th, table, section, article{
     background-color: gray;
 }
 
-#btn-title {
+#btn-container .btn-title {
     width: 100%;
     gap: 20px;
     background-color: lightgrey;
